@@ -3663,7 +3663,7 @@
 			}
 
 			#main > .posts > * {
-				padding: 3rem;
+				padding: 2.5rem;
 				width: 50%;
 			}
 
@@ -4184,9 +4184,9 @@
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: #212931;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgb(33, 41, 49;
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
