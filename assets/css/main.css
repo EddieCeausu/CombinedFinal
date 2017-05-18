@@ -2724,6 +2724,7 @@
 
 		header > p {
 			font-style: italic;
+			text-align: center;
 		}
 
 		header > h1 + p {
@@ -4480,3 +4481,6 @@
 		}
 
 	}
+article.poem > div > p {
+	text-align: center;
+}

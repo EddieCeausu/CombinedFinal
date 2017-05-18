@@ -35,6 +35,15 @@ $( window ).resize( function () {
 // Resize to fix all iframes on page load.
 }).resize();
 // *** End iframe adaption
+// *** PDF into iframe
+var pdf = new PDFObject({
+  url: "https://something.com/HTC_One_XL_User_Guide.pdf",
+  id: "pdfRendered",
+  pdfOpenParams: {
+    view: "FitH"
+  }
+}).embed("pdfRenderer");
+// *** End PDF into iframe
 	/**
 	 * Applies parallax scrolling to an element's background image.
 	 * @return {jQuery} jQuery object.
