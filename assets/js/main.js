@@ -36,7 +36,7 @@ $( window ).resize( function () {
 }).resize();
 // *** End iframe adaption
 // *** PDF into iframe
-var pdf = new PDFObject({
+/*var pdf = new PDFObject({
   url: "https://something.com/HTC_One_XL_User_Guide.pdf",
   id: "pdfRendered",
   pdfOpenParams: {
