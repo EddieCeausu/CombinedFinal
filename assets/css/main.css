@@ -2804,6 +2804,10 @@
 		border-top-color: #eeeeee;
 	}
 
+	article.poem > div > p {
+		text-align: center;
+	}
+
 /* Table */
 
 	.table-wrapper {
@@ -4481,6 +4485,3 @@
 		}
 
 	}
-article.poem > div > p {
-	text-align: center;
-}
