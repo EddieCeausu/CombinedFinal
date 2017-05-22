@@ -2917,8 +2917,9 @@
 		user-select: none;
 		cursor: default;
 		list-style: none;
-		margin: 0 0 2rem 2px;
+		margin: 0 0 -2rem 2px;
 		padding: 0;
+		align-content: center;
 	}
 
 		.pagination a, .pagination span {
@@ -3031,18 +3032,18 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 100%;
+			height: 110%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg (2).jpg");
+			background-size: auto, auto, 100% auto;
+			background-position: center center top center;
+			background-repeat: repeat, no-repeat, no-repeat;
+			background-attachment: scroll, scroll, scroll;
 			z-index: -1;
 		}
 
 			#wrapper > .bg.fixed {
-				position: fixed;
+				position: inherit;
 				width: 100vw;
 				height: 100vh;
 			}
@@ -3603,6 +3604,12 @@
 				margin: 0 0 2rem 0;
 			}
 
+			#main > .post header.major > h2 {
+				font-size: 2rem;
+				font-style: normal;
+				text-decoration: underline;
+			}
+
 			#main > .post.featured {
 				text-align: center;
 			}
@@ -3704,7 +3711,9 @@
 				}
 
 			}
-
+			#main > .pagination {
+				padding: 2rem 4rem 2rem 33rem;
+			}
 			@media screen and (max-width: 736px) {
 
 				#main > .posts > * {
