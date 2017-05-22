@@ -3017,6 +3017,11 @@
 		color: #eeeeee;
 	}
 
+	.pagination > a.special {
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+
 /* Wrapper */
 
 	#wrapper {
@@ -3034,7 +3039,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 110%;
+			height: 100%;
 			background-color: #212931;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg (2).jpg");
 			background-size: auto, auto, 100% auto;
