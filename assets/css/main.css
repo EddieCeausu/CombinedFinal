@@ -3034,7 +3034,7 @@
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
+	 #wrapper > .bg {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -3048,7 +3048,6 @@
 			background-attachment: scroll, scroll, scroll;
 			z-index: -1;
 		}
-
 			#wrapper > .bg.fixed {
 				position: inherit;
 				width: 100vw;
@@ -3084,9 +3083,8 @@
 		}
 
 		@media screen and (orientation: portrait) {
-
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: auto, auto, auto 175%;
 			}
 
 		}
