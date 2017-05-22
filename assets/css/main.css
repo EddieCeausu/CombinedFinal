@@ -2458,8 +2458,10 @@
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
-			width: 100%;
+			margin: 4rem 13rem;
+			width: 50%;
+			height: 50%;
+			object-position: center;
 		}
 
 			.image.main:first-child {
@@ -3594,6 +3596,10 @@
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
+		#main > .post > .pagination {
+			padding: 2rem 4rem 2rem 25rem;
+		}
+
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
@@ -3711,9 +3717,7 @@
 				}
 
 			}
-			#main > .pagination {
-				padding: 2rem 4rem 2rem 33rem;
-			}
+
 			@media screen and (max-width: 736px) {
 
 				#main > .posts > * {
