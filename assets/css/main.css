@@ -2488,6 +2488,13 @@
 		overflow: hidden;
 	}
 
+	p.text {
+		font-size: 1rem;
+		text-decoration: none;
+		text-transform: none;
+		font-style: normal;
+	}
+
 	/*	a.image img {
 			-moz-transition: -moz-transform 0.2s ease-out;
 			-webkit-transition: -webkit-transform 0.2s ease-out;
@@ -3772,6 +3779,9 @@
 
 		}
 
+		p.explanation {
+			font-size: 14px;
+		}
 /* Footer */
 
 	#footer {
