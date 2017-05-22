@@ -3597,7 +3597,7 @@
 		}
 
 		#main > .post > .pagination {
-			padding: 2rem 4rem 2rem 25rem;
+			padding: 2rem 4rem 2rem 23rem;
 		}
 
 			#main > .post header.major > .date {
@@ -3610,7 +3610,7 @@
 				margin: 0 0 2rem 0;
 			}
 
-			#main > .post header.major > h2 {
+			#main > .post > header.major > h2.h2history {
 				font-size: 2rem;
 				font-style: normal;
 				text-decoration: underline;
